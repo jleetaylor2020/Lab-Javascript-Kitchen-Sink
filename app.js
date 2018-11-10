@@ -25,13 +25,23 @@ function sayHello() {
 }
 
 sayHello ();
-//  #10
+
+//  #10 and #11 Q. Is there a way to place multiple paramenters to be ran in this one? ie checkAge X 4 --I added an if/else statement in here -=-
 function checkAge(name, age) {
     if (age < 21) {
-        alert(' Sorry ' + name + ' , you are not old enough to view this page! ');
-        
+        alert(' :( Sorry, ' + name + ' you are not old enough to view this page! ');
+     
+    }    
+    else {
+        alert(' :) Yey! ' + name + ' you are of age to view the content on this page!');
     }
-    
 }
+checkAge('Marvin', 22),
+checkAge('Charles', 21),
+checkAge('Abby', 27),
+checkAge('James', 18),
+checkAge('John', 17);
+// -------------
 
-checkAge('Marvin', 15);
+
+
