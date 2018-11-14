@@ -26,7 +26,7 @@
 
 //sayHello ();
 
-//  #10 and #11 Q. Is there a way to place multiple paramenters to be ran in this one? ie checkAge X 4 --I added an if/else statement in here -=-
+//  #10 and #11 Question. Is there a way to place multiple paramenters to be ran in this one? ie checkAge X 4 --I added an if/else statement in here -=-
 //function checkAge(name, age) {
    // if (age < 21) {
      //  alert(' :( Sorry, ' + name + ' you are not old enough to view this page! ');
@@ -49,10 +49,16 @@
 //}
 
 //#14 and #15 --- STUCK- EXPLORE LATER on how to create this loop with a function..
-//array.forEach(element => {  
-//});
+// 
+// Create an array of 5 objects that contain name and age properties. Make up names and ages for each object, making sure some are younger than 21 and some are 21+.
+// Use a loop to call the checkAge function for each object in the array, passing the object's name and age as arguments.
 
-//#16---STUCK- EXPLORE LATER
+
+//#16-18--STUCK- EXPLORE LATER
+// 
+// 16. Create a function called getLength that takes any word as an argument. The function should return the number of characters in the string.
+//  17. Call the getLength function, passing 'Hello World' as the argument. Store the returned result of that function in a variable.
+// 18. Check the number in the variable from the previous objective. If the number is even, display 'The world is nice and even!' in the developer console. Otherwise if the number is odd, display 'The world is an odd place!' in the developer console.
 
 
   
